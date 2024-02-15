@@ -1,6 +1,5 @@
 import * as THREE from 'https://threejsfundamentals.org/threejs/resources/threejs/r132/build/three.module.js';
 import {OBJLoader} from 'https://threejsfundamentals.org/threejs/resources/threejs/r132/examples/jsm/loaders/OBJLoader.js';
-import {OrbitControls} from 'https://threejsfundamentals.org/threejs/resources/threejs/r132/examples/jsm/controls/OrbitControls.js';
 
 let scene, camera, renderer, object;
 let boundary = new THREE.Box3(), size = new THREE.Vector3(0,0,0), distance;
