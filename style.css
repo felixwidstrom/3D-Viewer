@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+body {
+    background: rgb(32, 32, 32);
+    font-family: Arial;
+    font-weight: bolder;
+}
+
+header {
+    height: 64px;
+    width: 100%;
+    display: flex;
+    position: absolute;
+    top: 0;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.75);
+    z-index: 1;
+}
+
+header h2 {
+    height: 64px;
+    width: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header div {
+    height: 64px;
+    width: 96px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.dropdown-tools {
+    width: auto;
+    height: auto;
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 64px;
+    color: black;
+    font-weight: lighter;
+    background-color: white;
+}
+
+label {
+    width: 96px;
+    height: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.dropdown-tools {
+    flex-direction: row;
+}
+
+.container {
+    width: 256px;
+    height: 256px;
+    display: flex;
+    flex-direction: column;
+}
+
+.container h2, .container input {
+    margin: 8px;
+    text-align: center;
+}
+
+.desc {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    width: 100vw;
+    height: 100vh;
+}
+
+.show {
+    display: flex;
+}

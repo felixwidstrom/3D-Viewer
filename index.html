@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="js/main.js"></script>
+    <script type="module" src="js/render.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>3D-Viewer</title>
+</head>
+<body>
+    <header>
+        <h2>3D-Viewer</h2>
+        <div class="tools">Tools</div>
+        <div class="dropdown-tools">
+            <div class="container">
+                <h2>Move</h2>
+                <div class="desc">
+                    <p>X:</p>
+                    <input type="number" value="0">
+                </div>
+                <div class="desc">
+                    <p>Y:</p>
+                    <input type="number" value="0">
+                </div>
+                <div class="desc">
+                    <p>Z:</p>
+                    <input type="number" value="0">
+                </div>
+            </div>
+            <div class="container">
+                <h2>Rotate</h2>
+                <div class="desc">
+                    <p>X:</p>
+                    <input type="range" min="-180" max="180">
+                </div>
+                <div class="desc">
+                    <p>Y:</p>
+                    <input type="range" min="-180" max="180">
+                </div>
+                <div class="desc">
+                    <p>Z:</p>
+                    <input type="range" min="-180" max="180">
+                </div>
+            </div>
+            <div class="container">
+                <h2>Scale</h2>
+                <div class="desc">
+                    <p>X:</p>
+                    <input type="number" value="1">
+                </div>
+                <div class="desc">
+                    <p>Y:</p>
+                    <input type="number" value="1">
+                </div>
+                <div class="desc">
+                    <p>Z:</p>
+                    <input type="number" value="1">
+                </div>
+            </div>
+            <div class="container">
+                <h2>Camera</h2>
+                <div class="desc">
+                    <p>FOV:</p>
+                    <input type="number" value="45">
+                </div>
+                <div class="desc">
+                    <p>Cut-off:</p>
+                    <input type="number" value="1000">
+                </div>
+                <div class="desc">
+                    <p>Position:</p>
+                    <input type="number" value="100">
+                </div>
+            </div>
+        </div>
+        <input type="file" accept=".obj" id="import" hidden>
+        <label for="import">Import</label>
+    </header>
+    <main></main>
+</body>
+</html>
