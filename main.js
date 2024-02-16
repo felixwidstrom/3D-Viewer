@@ -119,7 +119,7 @@ inputs[13].onclick = () => {
     inputs[1].value = 0;
     object.position.x = 0;
     inputs[2].value = 0;
-    object.position.y = -size.y/2;
+    object.position.y = (-size.y)/2;
     inputs[3].value = 0;
     object.position.z = 0;
     inputs[4].value = 0;
