@@ -116,12 +116,6 @@ inputs[12].onchange = () => {
     camera.position.z = inputs[12].value + distance;
 }
 inputs[13].onclick = () => {
-    boundary.setFromObject(object);
-    size.subVectors(boundary.max, boundary.min);
-    distance = (Math.max(size.x, size.y, size.z)*2)/Math.tan((45*Math.PI)/180);
-    camera.position.z = distance;
-}
-inputs[14].onclick = () => {
     inputs[1].value = 0;
     object.position.x = 0;
     inputs[2].value = 0;
