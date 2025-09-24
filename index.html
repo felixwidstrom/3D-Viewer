@@ -16,66 +16,71 @@
     <main>
         <div class="tools">
             <div class="container">
-                <h3>Move</h3>
-                <div>
+                <p class="container-title">Movement</p>
+                <div class="input-wrapper">
                     <p>X:</p>
-                    <input type="number" value="0">
+                    <input name="move-x" type="number" value="0">
                 </div>
-                <div>
+                <div class="input-wrapper">
                     <p>Y:</p>
-                    <input type="number" value="0">
+                    <input name="move-y" type="number" value="0">
                 </div>
-                <div>
+                <div class="input-wrapper">
                     <p>Z:</p>
-                    <input type="number" value="0">
+                    <input name="move-z" type="number" value="0">
                 </div>
             </div>
             <div class="container">
-                <h3>Rotate</h3>
-                <div>
+                <p class="container-title">Rotation</p>
+                <div class="input-wrapper">
                     <p>X:</p>
-                    <input type="number" value="0">
+                    <input name="rotate-x" type="range" min="-180" max="180" value="0">
+                    <input name="rotate-x-number" type="number" min="-180" max="180" value="0">
                 </div>
-                <div>
+                <div class="input-wrapper">
                     <p>Y:</p>
-                    <input type="number" value="0">
+                    <input name="rotate-y" type="range" min="-180" max="180" value="0">
+                    <input name="rotate-y-number" type="number" min="-180" max="180" value="0">
                 </div>
-                <div>
+                <div class="input-wrapper">
                     <p>Z:</p>
-                    <input type="number" value="0">
+                    <input name="rotate-z" type="range" min="-180" max="180" value="0">
+                    <input name="rotate-z-number" type="number" min="-180" max="180" value="0">
                 </div>
             </div>
             <div class="container">
-                <h3>Scale</h3>
-                <div>
+                <p class="container-title">Scale</p>
+                <div class="input-wrapper">
                     <p>X:</p>
-                    <input type="number" value="1">
+                    <input name="scale-x" type="number" value="1">
                 </div>
-                <div>
+                <div class="input-wrapper">
                     <p>Y:</p>
-                    <input type="number" value="1">
+                    <input name="scale-y" type="number" value="1">
                 </div>
-                <div>
+                <div class="input-wrapper">
                     <p>Z:</p>
-                    <input type="number" value="1">
+                    <input name="scale-z" type="number" value="1">
                 </div>
             </div>
             <div class="container">
-                <h3>Camera</h3>
-                <div>
+                <p class="container-title">Camera</p>
+                <div class="input-wrapper">
                     <p>FOV:</p>
-                    <input type="number" value="45">
+                    <input name="camera-fov" type="number" value="45">
                 </div>
-                <div>
+                <div class="input-wrapper">
                     <p>Cut-off:</p>
-                    <input type="number" value="1000">
+                    <input name="camera-cutoff" type="number" value="1000">
                 </div>
-                <div>
+                <div class="input-wrapper">
                     <p>Position:</p>
-                    <input type="number" value="0">
+                    <input name="camera-position" type="number" value="0">
                 </div>
-                <div>
-                    <input type="button" value="Reset">
+            </div>
+            <div class="container">
+                <div class="input-wrapper">
+                    <input name="reset" type="button" value="Reset">
                 </div>
             </div>
         </div>

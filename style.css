@@ -49,6 +49,7 @@ main {
     display: flex;
 }
 
+/* Tools */
 .tools {
     width: 320px;
     height: calc(100vh - 64px);
@@ -67,20 +68,25 @@ main {
     flex-direction: column;
 }
 
-.container h3 {
-    margin: 8px auto;
+.container-title {
+    margin: 4px auto 4px 0;
 }
 
-.container div {
-    margin: 4px;
-    width: 248px;
+.input-wrapper {
+    margin: 4px 0px;
+    width: 100%;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
 }
 
-.container p {
-    margin: auto auto auto 8px;
+input[name="reset"] {
+    margin: 8px auto;
+    width: 128px;
+    height: 32px;
+    border: none;
+    border-radius: 16px;
+    cursor: pointer;
 }
 
 /* Toggle */
